@@ -1,0 +1,35 @@
+/* 引入全局变量的less文件 */
+@import 'variables.less';
+/* 引入头部的less文件 */
+@import 'header.less';
+/* 引入导航条的less文件 */
+@import 'nav.less';
+
+
+/* 轮播图区域的样式 */
+
+#slide {
+    .large-image {
+        /*大图要居中在页面中显示 高度是固定*/
+        /*width: 100%;*/
+        /*height: 410px;*/
+        background-position: center center;
+        width: 100%;
+        height: 410px;
+    }
+    .small-image {
+        /*小图需要全屏显示等比例缩放*/
+        width: 100%;
+    }
+}
+
+
+@import 'feature.less';
+
+@import 'booking.less';
+
+@import 'products.less';
+
+@import 'news.less';
+
+@import 'partner.less';

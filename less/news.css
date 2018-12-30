@@ -1,0 +1,7 @@
+#news {
+  padding: 40px 0;
+}
+#news h4 {
+  position: relative;
+  border-bottom: 1px dashed;
+}
